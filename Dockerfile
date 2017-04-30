@@ -7,5 +7,5 @@ ADD nginx.conf /etc/nginx/nginx.conf
 ADD data /usr/share/nginx/html/data
 RUN apt-get update && apt-get install -y unzip
 
-RUN unzip /usr/share/nginx/html/data/gmail.zip; rm /usr/share/nginx/html/data/gmail.zip;
+RUN unzip /usr/share/nginx/html/data/gmail.zip -d /usr/share/nginx/html/data; rm /usr/share/nginx/html/data/gmail.zip;
 
