@@ -7,5 +7,5 @@ ADD nginx.conf /etc/nginx/nginx.conf
 ADD data /usr/share/nginx/html/data
 RUN apt-get update && apt-get install -y unzip
 
+ADD https://media.gcflearnfree.org/assets/offlinesite/individualtopic_downloads/gmail.zip /usr/share/nginx/html/data/
 RUN unzip /usr/share/nginx/html/data/gmail.zip -d /usr/share/nginx/html/data; rm /usr/share/nginx/html/data/gmail.zip;
-
