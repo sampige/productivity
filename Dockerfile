@@ -4,7 +4,6 @@ EXPOSE 8080
 
 ADD index.html /usr/share/nginx/html
 ADD nginx.conf /etc/nginx/nginx.conf
-ADD data /usr/share/nginx/html/data
 RUN apt-get update && apt-get install -y unzip
 
 ADD https://media.gcflearnfree.org/assets/offlinesite/individualtopic_downloads/gmail.zip /usr/share/nginx/html/data/
