@@ -2,9 +2,11 @@ FROM nginx:1.13.0
 
 EXPOSE 8080
 
-ADD index.html /usr/share/nginx/html
 ADD nginx.conf /etc/nginx/nginx.conf
-RUN apt-get update && apt-get install -y unzip
+RUN apt-get update && apt-get install -y unzip wget && mkdir /usr/share/nginx/html/data
 
-ADD https://media.gcflearnfree.org/assets/offlinesite/individualtopic_downloads/gmail.zip /usr/share/nginx/html/data/
-RUN unzip /usr/share/nginx/html/data/gmail.zip -d /usr/share/nginx/html/data; rm /usr/share/nginx/html/data/gmail.zip;
+RUN wget -O /usr/share/nginx/html/data/gmail.zip https://media.gcflearnfree.org/assets/offlinesite/individualtopic_downloads/gmail.zip && \
+    unzip /usr/share/nginx/html/data/gmail.zip -d /usr/share/nginx/html/data && \
+    rm /usr/share/nginx/html/data/gmail.zip;
+
+ADD index.html /usr/share/nginx/html
