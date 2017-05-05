@@ -1,29 +1,29 @@
 <html>
   <body>
-    <h1> <font color="orange"> Productivity Tutorials </font> </h1>
-    <h2> <font color="blue"> Google Applications </font></h2>
+    <h1> <font color="red"> Productivity Tutorials </font> </h1>
+    <h2>Google Applications</h2>
     <ul>
-      <li><a href="/productivity/data/googleaccount/googleaccount.html">Google Account </a></li>
+      <li><a href="/productivity/data/googleacount/googleaccount.html">Google Account</a></li>
       <li><a href="/productivity/data/gmail/gmail.html">Gmail Tutorial</a></li>
       <li><a href="/productivity/data/googledriveanddocs/googledriveanddocs.html">Google Drive</a></li>
       <li><a href="/productivity/data/googledocuments/googledocuments.html">Google Docs</a></li>
       <li><a href="/productivity/data/googlesheets/googlesheets.html">Google Sheets</a></li>
     </ul>
-    <h2> <font color="blue"> Mobile Technologies </font> </h2>
+    <h2> Mobile Technologies</h2>
     <ul>
       <li><a href="/productivity/data/androidbasics/androidbasics.html">Android Basics</a></li>
     </ul>
-    <h2><font color="blue"> Photo and Graphics Technologies </font> </h2>
+    <h2>Photo and Graphics Technologies</h2>
     <ul>
       <li><a href="/productivity/data/photoshopbasics/photoshopbasics.html">Photoshop Basics</a></li>
       <li><a href="/productivity/data/imageediting101/imageediting101.html">Image Editing Basics</a></li>
     </ul>
-    <h2><font color="blue"> Internet </font> </h2>
+    <h2>Internet</h2>
     <ul>
       <li><a href="/productivity/data/internet101/internet101.html">Internet Basics</a></li>
       <li><a href="/productivity/data/chrome/chrome.html">Google Chrome Browser Basics</a></li>
     </ul>
-    <h2><font color="blue"> Microsoft Office 2013 </font> </h2>
+    <h2>Microsoft Office 2013</h2>
     <ul>
       <li><a href="/productivity/data/word2013/word2013.html">Word 2013</a></li>
       <li><a href="/productivity/data/excel2013/excel2013.html">Excel 2013</a></li>
