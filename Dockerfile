@@ -21,9 +21,9 @@ RUN wget -O /usr/share/nginx/html/data/googledocuments.zip https://media.gcflear
     unzip /usr/share/nginx/html/data/googledocuments.zip -d /usr/share/nginx/html/data && \
     rm /usr/share/nginx/html/data/googledocuments.zip;
 
-RUN wget -O /usr/share/nginx/html/data/googlesheets.zip https://media.gcflearnfree.org/assets/offlinesite/individualtopic_downloads/googlesheets.zip && \
-    unzip /usr/share/nginx/html/data/googlesheets.zip -d /usr/share/nginx/html/data && \
-    rm /usr/share/nginx/html/data/googlesheets.zip;
+RUN wget -O /usr/share/nginx/html/data/googlespreadsheets.zip https://media.gcflearnfree.org/assets/offlinesite/individualtopic_downloads/googlespreadsheets.zip && \
+    unzip /usr/share/nginx/html/data/googlespreadsheets.zip -d /usr/share/nginx/html/data && \
+    rm /usr/share/nginx/html/data/googlespreadsheets.zip;
 
 RUN wget -O /usr/share/nginx/html/data/androidbasics.zip https://media.gcflearnfree.org/assets/offlinesite/individualtopic_downloads/androidbasics.zip && \
     unzip /usr/share/nginx/html/data/androidbasics.zip -d /usr/share/nginx/html/data && \
